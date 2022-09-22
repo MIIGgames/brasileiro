@@ -13,6 +13,7 @@ header {
     justify-items: center;
     padding: 25px;
     background: rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.755);
 }
 
 header h1 {
@@ -57,12 +58,6 @@ main .home {
     padding: 10px;
 }
 
-main .linha {
-    display: flex;
-    gap: 20px;
-    width: 100vw;
-}
-
 main h2 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -75,9 +70,57 @@ main h2 {
 
 /* Main Galeria */
 
-.portfolio-grid > div{
-    transition: all 300ms ease-in-out;
+
+/* Tabela  */
+
+table {
+    margin: auto;
+    table-layout: fixed;
+    width: 90%;
+    text-align: center;
+  }
+
+table td {
+    font-size: 1.1em;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  caption {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1,5em;
+    background-color: #23232e;
+    color: white;
+  }
+
+  table caption {
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+
+  .linha {
+    color: white;
+    background-color: #23232e;
+  }
+
+
+
+/* Footer */
+
+footer {
+    background-color: #23232e;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
 }
-.portfolio-grid > div:hover{
-    transform: scale(0.9);
+
+footer a {
+    cursor: pointer;
+    color: blue;
 }
