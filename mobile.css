@@ -59,6 +59,11 @@
     hr {
         display: none;
     }
+
+    /* Tabela */
+    table {
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width:700px) {
