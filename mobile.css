@@ -1,0 +1,126 @@
+@media screen and (max-width: 520px) {
+    header {
+        text-align: center;
+        flex-direction: column;
+        justify-items: center;
+        padding: 10px;
+        background: rgba(0,0,0,0.6);
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    menu {
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #items li {
+        font-size: 1.2rem;
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    #banner {
+        background-image: url(img/banner01.jpg);
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Parte do Texto - banner*/
+    .texto {
+        margin-top:205px;
+        margin-left: 20px;
+        width: 400px;
+        line-height: 1.5rempx;
+    }
+    
+    .texto h3 {
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .texto p {
+        color: white;
+    }
+
+    /* Main css */
+    main .bloco {
+        flex-direction: column;
+    }
+    
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        text-align: center;
+        flex-direction: column;
+        justify-items: center;
+        padding: 10px;
+        background: rgba(0,0,0,0.6);
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    menu {
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    #items li {
+        font-size: 1.2rem;
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    #banner {
+        background-image: url(img/banner01.jpg);
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Parte do Texto - banner*/
+    .texto {
+        margin-top:205px;
+        margin-left: 20px;
+        width: 400px;
+        line-height: 1.5rempx;
+    }
+
+    .texto h3 {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .texto p {
+        color: white;
+    }
+
+        /* Main css */
+        main .bloco {
+            flex-direction: column;
+        }
+        
+        hr {
+            display: none;
+        }
+
+}
