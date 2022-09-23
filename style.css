@@ -7,6 +7,7 @@
     list-style: none;
 }
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -35,8 +36,11 @@ menu li a {
 }
 
 menu li a:hover {
-    border-bottom: 2px solid white;
+    background-color: #23232e;
+    border-radius: 5px;
+    padding: 10px;
 }
+
 
 /* Parte do texto - baner */
 
@@ -51,7 +55,7 @@ menu li a:hover {
 main {
     max-width: 1200px;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 main .home {
@@ -62,7 +66,8 @@ main h2 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background: rgba(0,0,0,0.6);
+    background: #23232e;
+    color: white;
     padding: 7px;
     border-radius: 5px;
     width: auto;
@@ -70,6 +75,12 @@ main h2 {
 
 /* Main Galeria */
 
+.fotos h3 {
+}
+
+.fotos {
+    background:  gray;
+}
 
 /* Tabela  */
 
@@ -108,6 +119,43 @@ table td {
     background-color: #23232e;
   }
 
+/* Documentos */
+
+.documentos table {
+    margin: auto;   
+}
+
+/* Parceiros */
+
+main .bloco-parceiros {
+    margin-top: 20px;
+    background: rgba(34,34,34);
+    padding: 10px;
+}
+
+main .bloco-parceiros p {
+    margin: 0px 30px;
+    color: white;
+    font-size: 18px;
+}
+
+main .parceiros {
+    margin-top: 10px;
+    display: flex;
+    justify-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+main .parceiros a {
+    color: blue;
+}
+
+main .parceiros a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* contatos */
 
 
 /* Footer */
@@ -124,3 +172,4 @@ footer a {
     cursor: pointer;
     color: blue;
 }
+

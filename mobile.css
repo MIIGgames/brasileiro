@@ -1,4 +1,9 @@
 @media screen and (max-width: 520px) {
+    body {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
     header {
         text-align: center;
         flex-direction: column;
@@ -23,7 +28,7 @@
     }
 
     i#burguer {
-        display: none;
+        background: aqua;
     }
 
     #banner {
@@ -36,10 +41,11 @@
 
     /* Parte do Texto - banner*/
     .texto {
+
         margin-top:205px;
         margin-left: 20px;
         width: 400px;
-        line-height: 1.5rempx;
+        line-height: 1.5rem;
     }
     
     .texto h3 {
@@ -60,9 +66,26 @@
         display: none;
     }
 
+    main .documentos h2 {
+        margin: 0 auto;
+    }
+
     /* Tabela */
-    table {
+    table  {
         padding: 10px;
+    }
+
+    table tr {
+        padding: 5px;
+    }
+
+    /* Parceiros */
+
+    .parceiros {
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        line-height: 27px;
     }
 }
 
@@ -107,7 +130,7 @@
         margin-top:205px;
         margin-left: 20px;
         width: 400px;
-        line-height: 1.5rempx;
+        line-height: 1.5rem;
     }
 
     .texto h3 {
