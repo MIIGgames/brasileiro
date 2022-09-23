@@ -1,94 +1,158 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
 
-
 header {
     display: flex;
+    background: rgb(34,34,34);
     justify-content: space-between;
-    justify-items: center;
-    padding: 25px;
-    background: rgba(0,0,0,0.6);
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.755);
+    padding: 20px;
 }
 
 header h1 {
     color: white;
+    font-family: sans-serif;
 }
 
-i#burguer {
-    display: none;
-}
-
-menu {
+menu ul {
     display: flex;
     gap: 20px;
 }
 
-menu li a {
-    color: white;
+menu ul li a{
     line-height: 30px;
+    color: white;
+    font-family: sans-serif;
 }
 
-menu li a:hover {
-    background-color: #23232e;
-    border-radius: 5px;
+menu ul li a:hover {
+    background: black;
     padding: 10px;
+    border-radius: 15px;
 }
 
+/* Main Css*/
 
-/* Parte do texto - baner */
-
-.texto {
-    display: none;
-}
-
-/* ====================
-        Main 
-=======================*/
-
-main {
+section .home {
+    padding: 20px;
     max-width: 1200px;
     margin: auto;
-    padding: 5px;
+    font-family: sans-serif;
+    margin-top: 30px;
 }
 
-main .home {
+section .home h2 {
+    border-bottom: 3px solid black;
+    width: 200px;
+}
+
+section .home p {
+    margin-top: 10px;
+    margin-left: auto;
+    font-size: 1.2rem;
+}
+
+section .home h3 {
+    margin-top: 10px;
+}
+
+/* ===================
+    Main Novidades
+======================*/
+
+section#novidades {
+    margin-top: 20px;
+    background: whitesmoke;
+}
+
+section .novidade {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+section .novidade .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
     padding: 10px;
 }
 
-main h2 {
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background: #23232e;
-    color: white;
-    padding: 7px;
-    border-radius: 5px;
-    width: auto;
+section .novidade .container img {
+    width: 400px;
+    height: 350px;
 }
 
-/* Main Galeria */
-
-.fotos h3 {
+section .novidade .container p {
+    font-family: sans-serif;
+    padding: 10px;
+    width: 700px;
 }
 
-.fotos {
-    background:  gray;
+section .novidade h2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    border-bottom: 3px solid black;
+    width: 200px;
+    padding: 10px;
 }
 
-/* Tabela  */
+/* ===================
+      Main Fotos
+======================*/
+
+section#galeria h2 {
+    margin: 30px;
+    font-family: sans-serif;
+    border-bottom: 3px solid black;
+    width: 200px;
+}
+
+section .fotos {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+section .fotos div {
+    margin: 0px 10px;
+    width: 300px;
+    height: 300px;
+}
+
+section .fotos div:hover {
+    border: 1px solid gray;
+}
+
+/* ===================
+      Main dias de treinos
+    ======================*/
+
+section .treino {
+    background: rgba(128, 128, 128, 0.136);
+    margin-top: 20px;
+    padding: 10px;
+    margin: auto;
+}
+
+section .treino h2 {
+    font-family: sans-serif;
+    border-bottom: 3px solid black;
+    width: 200px;
+    margin: 30px 30px;
+}
 
 table {
     margin: auto;
     table-layout: fixed;
     width: 90%;
     text-align: center;
+    font-family: sans-serif;
   }
 
 table td {
@@ -119,57 +183,65 @@ table td {
     background-color: #23232e;
   }
 
-/* Documentos */
-
-.documentos table {
-    margin: auto;   
+hr {
+    background: gray;
 }
 
-/* Parceiros */
+/* ===================
+      Main Documtos
+======================*/
 
-main .bloco-parceiros {
+section .documentos {
+    max-width: 1200px;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+section .documentos h2 {
     margin-top: 20px;
-    background: rgba(34,34,34);
-    padding: 10px;
+    border-bottom: 3px solid black;
+    width: 200px;
 }
 
-main .bloco-parceiros p {
-    margin: 0px 30px;
-    color: white;
-    font-size: 18px;
+section .documentos table {
+    margin-top: 15px;
+    width: 600px;
 }
 
-main .parceiros {
-    margin-top: 10px;
+/* ===================
+      Main Parceiros
+======================*/
+
+section#parceiros {
+    background: rgba(128, 128, 128, 0.237);
+    padding: 20px;
+}
+
+section .parceiros h2 {
+    font-family: sans-serif;
+
+}
+
+section .parceiros a {
+    font-family: sans-serif;
+    color: blue;
+}
+
+section .parceiros {
     display: flex;
-    justify-items: center;
     padding: 10px;
     justify-content: space-around;
 }
 
-main .parceiros a {
-    color: blue;
-}
-
-main .parceiros a:hover {
-    border-bottom: 2px solid white;
-}
-
-/* contatos */
-
-
-/* Footer */
+/* ===================
+        Footer
+======================*/
 
 footer {
-    background-color: #23232e;
+    margin-top: 10px;
+    background: #23232e;
     padding: 20px;
     display: flex;
-    gap: 25px;
     justify-content: space-around;
 }
-
-footer a {
-    cursor: pointer;
-    color: blue;
-}
-

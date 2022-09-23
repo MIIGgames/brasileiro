@@ -13,16 +13,16 @@
         display: block;
         flex-direction: column;
         padding: 20px;
-        height: 50vh;
+        height: 40vh;
     }
 
     header h1 {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 70px;
     }
 
     header menu {
-        margin-top: 15px;
+        margin-top: 50px;
     }
 
     header menu > ul{
