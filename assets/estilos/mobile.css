@@ -1,39 +1,63 @@
-@media (max-width: 952px){
-	label.logo{
-		font-size: 30px;
-		padding-left: 50px;
+@media (max-width: 600px) {
+	.menu {
+	  display: block;
+	  position: absolute;
+	  top: 4.6875rem;
+	  left: 0;
+	  background: var(--royal-blue-light);
+	  text-align: center;
+	  width: 100%;
+	  height: 0;
+	  z-index: 1;
+	  visibility: hidden;
+	  overflow-y: hidden;
+	  transition: 0.5s;
 	}
-	nav ul li a{
-		font-size: 16px;
+	.menu a {
+	  padding: 1rem 0;
+	  margin-inline: 1rem;
+	  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.16);
+	  border-radius: 0;
 	}
-}
-@media (max-width: 858px){
-	.checkbtn {
-		display: block;
+	.btn-menu {
+	  background: none;
+	  border: none;
+	  font: inherit;
+	  display: flex;
+	  align-items: center;
+	  gap: 0.5rem;
+	  color: var(--white);
+	  padding: 1rem 0;
+	  cursor: pointer;
 	}
-	ul{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		background: gainsboro;
-		top: 80px;
-		left: -100%;
-		text-align: center;
-		transition: all .5s;
+	.hamburger {
+	  border-top: 0.125rem solid;
+	  width: 1.25rem;
 	}
-	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
+	.hamburger::after,
+	.hamburger::before {
+	  content: " ";
+	  display: block;
+	  width: 1.25rem;
+	  height: 0.125rem;
+	  background: currentColor;
+	  margin-top: 0.3125rem;
+	  position: relative;
+	  transition: 0.3s;
 	}
-	nav ul li a {
-		font-size: 20px;
+	.nav.active .menu {
+	  height: calc(100vh - 4.6875rem);
+	  visibility: visible;
+	  overflow-y: auto;
 	}
-	a:hover, a.active {
-		background: none;
-		color: black;
+	.nav.active .hamburger {
+	  border-top-color: transparent;
 	}
-	#check:checked ~ ul {
-		left: 0;
+	.nav.active .hamburger::before {
+	  transform: rotate(135deg);
 	}
-}
+	.nav.active .hamburger::after {
+	  transform: rotate(-135deg);
+	  top: -0.4375rem;
+	}
+  }
