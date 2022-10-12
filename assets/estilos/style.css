@@ -57,6 +57,16 @@
 	display: none;
   }
 
+/* Carousel 1 */
+
+img{
+	width: 500px;
+	height: 300px;
+  }
+  button {
+	width: 100px;
+  }
+
 /* Setion home */
 
 section#home {
