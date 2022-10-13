@@ -58,9 +58,23 @@
 	display: none;
   }
 
+
+
 /* ==============
-  	  Banner
+  	  Geral
 =================*/
+
+h2 {
+	border-bottom: 3px solid black;
+	width: 200px;
+	font-size: 30px;
+	padding: 5px;
+}
+
+article {
+	font-size: 1.2rem;
+	font-family: sans-serif;
+}
 
 /* ==============
 	  Home
@@ -85,20 +99,37 @@ section .home h3 {
 	width: 200px;
 }
 
-#texto2 {
-	margin-top: 10px;
-}
-
 section .home {
 	margin-top: 10px;
 	padding: 10px;
 }
 
 section .home article {
-	margin: 10px auto;
 	font-size: 1.2rem;
 	font-family: sans-serif;
 	justify-items: left;
+}
+
+/* ==============
+	  Novidade
+=================*/
+
+.novidade-mobile {
+	display: none;
+}
+
+section#novidade {
+	background: rgba(128, 128, 128, 0.266);
+}
+
+section .novidade {
+	max-width: 1400px;
+	margin: auto;
+	padding: 10px;
+}
+
+section#novidade .novidade h2 {
+	padding: 10px;
 }
 
 /* Carrousel */
