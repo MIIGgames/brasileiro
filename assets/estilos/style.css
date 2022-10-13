@@ -15,7 +15,7 @@
   body {
 	overflow-x: hidden;
 	font-family: sans-serif;
-	background: white;
+	background: gainsboro;
   }
   
   a {
@@ -58,43 +58,18 @@
 	display: none;
   }
 
+/* ==============
+  	  Banner
+=================*/
 
-/* Setion home */
+/* ==============
+	  Home
+=================*/
 
-section#home {
-	background: rgba(128, 128, 128, 0.123);
-}
-
-section#home .home {
+section#home h2{
 	max-width: 1200px;
-	margin: auto;
+	margin: 10px auto;
 	padding: 10px;
-	margin-top: 10px;
-}
-
-section#home .home h2 {
-	font-size: 2.2rem;
-	border-bottom: 3px solid black;
-	width: 200px;
-}
-
-section#home .container {
-	display: flex;
-	margin: 15px 20px;
-}
-
-section#home p {
-	margin-top: 30px;
-	font-size: 1.2rem;
-	width: 700px;
-	justify-self: left;
-}
-
-section#home #img-banner {
-	margin: 0px 20px;
-	width: 400px;
-	height: 500px;
-	background-size: cover;
 
 }
 
