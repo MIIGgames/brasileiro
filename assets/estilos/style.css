@@ -66,11 +66,39 @@
 	  Home
 =================*/
 
+section#home {
+	padding: 10px;
+	max-width: 1400px;
+	margin: auto;
+}
+
 section#home h2{
 	max-width: 1200px;
-	margin: 10px auto;
 	padding: 10px;
+	font-size: 30px;
+	border-bottom: 3px solid black;
+	width: 200px;
+}
 
+section .home h3 {
+	border-bottom: 2px solid black;
+	width: 200px;
+}
+
+#texto2 {
+	margin-top: 10px;
+}
+
+section .home {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+section .home article {
+	margin: 10px auto;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+	justify-items: left;
 }
 
 /* Carrousel */
