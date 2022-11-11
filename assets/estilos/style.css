@@ -113,11 +113,6 @@ section .home article {
 /* ==============
 	  Novidade
 =================*/
-
-.novidade-mobile {
-	display: none;
-}
-
 section#novidade {
 	background: rgba(128, 128, 128, 0.266);
 }
