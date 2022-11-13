@@ -369,69 +369,70 @@ img{
      Section Projetos
 =========================*/
 
-section#projetos {
-    max-width: 1200px;
-    margin: auto;
-    padding: 10px;
-}
 
-.bloco-4 {
-    gap: 10px;
-    display: flex;
-}
 
-.projetos .texto-projetos {
-    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.142);
-    padding: 10px;
-}
+/* ===============
+	  contact 
+==================*/
 
-.texto-projetos p {
-    margin: 0px 10px;
-}
-
-/* contact */
-#contact{
+#contato{
     background-color: rgb(248, 248, 248);
-}
-.contact-content{
-    flex-direction: column;
     align-items: stretch;
 }
-.contact-left{
-    margin-bottom: 5rem;
+
+.contato {
+	max-width: 1200px;
+	margin: auto;
+	padding: 10px;
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.162);
 }
-.contact-left .lead{
-    padding: 0.5rem;
+
+.dividir{
+	display: flex;
 }
-.contact-left form{
-    margin-top: 3rem;
+
+.artigo-numero {
+	margin: 10px 30px;
+	font-size: 1.2rem;
 }
-.contact-left form .form-control{
-    display: block;
-    margin: 1.6rem 0;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    padding: 1rem;
-    width: 100%;
+
+.artigo-numero p {
+	margin-top: 10px;
 }
-.contact-left form .form-control::placeholder{
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+
+form {
+	margin-top: 2rem;
+	flex-direction: column;
+	display: flex;
+	gap: 10px;
 }
-.contact-left .btn-submit{
-    padding: 1.4rem 3rem;
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-    color: var(--light-color);
-    margin-top: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1.6rem;
-    transition: var(--transition);
+
+form .form-control {
+	width: 500px;
+	padding: 10px
+
 }
-.contact-left .btn-submit:hover{
-    background-color: #000;
-    color: white;
+
+.img-presidente {
+	width: 50%;
+	padding: 5px;
 }
+
+form .btn-submit {
+	width: 500px;
+	background: #24252a;
+	padding: 10px;
+	color: white;
+	font-size: 1.3rem;
+	border: #24252a;
+}
+
+form .btn-submit:hover {
+	background: #3946d4;
+	transition: 0.2s;
+	padding: 15px;
+}
+
 
 /* ======================
        Footer
