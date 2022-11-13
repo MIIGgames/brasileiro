@@ -80,12 +80,10 @@
 		display: none;
 	}
 
-	  .slider .card{
-		flex: 1;
-		margin: 0 10px;
-		background: #fff;
-		width: 300px;
-	  }
+	.novi-2 {
+		display: block;
+		flex-direction: column;
+	}
 
 	  .slide {
 		display: block;

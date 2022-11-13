@@ -59,8 +59,6 @@
 	display: none;
   }
 
-
-
 /* ==============
   	  Geral
 =================*/
@@ -143,7 +141,7 @@ section#novidade .novidade h2 {
   .card .content .sub-title{
 	font-size: 20px;
 	font-weight: 600;
-	color: #e74c3c;
+	color: #828282;
 	line-height: 20px;
   }
   .card .content p{
@@ -156,7 +154,7 @@ section#novidade .novidade h2 {
 	margin: 10px 0;
   }
   .card .content .btn button{
-	background: #e74c3c;
+	background: #3946d4;
 	color: #fff;
 	border: none;
 	outline: none;
@@ -169,9 +167,41 @@ section#novidade .novidade h2 {
   .card .content .btn button:hover{
 	transform: scale(0.9);
   }
-
   /* ================== */
-  .slide {
+  .novi-1 {
+	max-width: 1200px;
+	padding: 5px;
+	margin: auto;
+  }
+
+  .bloco-1 {
+	background: #fff;
+  }
+
+  .bloco-1 h3 {
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 5px;
+  }
+
+  .bloco-1 p {
+	padding: 5px;
+	justify-content: left;
+	justify-items: left;
+	margin: 0px 5px;
+
+  }
+
+  .img-bloco {
+	margin: auto;
+	width: 100%;
+	height: 99%;
+  }
+
+
+/* Fotos */
+
+.slide {
 	display: none;
 	position: relative;
 	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -277,6 +307,4 @@ section#novidade .novidade h2 {
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
 		 -1px 0px 2px rgba(255, 255, 255, 0);
 }
-
-/* Carrousel */
 
