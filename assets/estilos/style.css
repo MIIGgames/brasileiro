@@ -145,7 +145,7 @@ section#novidade .novidade h2 {
 	line-height: 20px;
   }
   .card .content p{
-	text-align: justify;
+	text-align: left;
 	margin: 10px 0;
   }
   .card .content .btn{
@@ -418,6 +418,12 @@ form .form-control {
 	padding: 5px;
 }
 
+.img-pre {
+	height: 60vh;
+	background-position: center;
+	background-size: cover;
+}
+
 form .btn-submit {
 	width: 500px;
 	background: #24252a;
@@ -467,7 +473,7 @@ form .btn-submit:hover {
     margin: .5rem 1rem;
 }
 .footer-content > div:first-child{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .footer-content > div:first-child div{
     width: 100px;
@@ -483,6 +489,7 @@ form .btn-submit:hover {
 =================*/
 
 section#documentos .documentos{
+	background: gainsboro;
 	max-width: 1200px;
 	margin: auto;
 	padding: 10px;
