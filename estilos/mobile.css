@@ -135,6 +135,18 @@
 		background-position: center;
 		background-size: cover;
 	}
+
+	.img-esquerda {
+		margin:100%;
+		background: black;
+	}
+
+	.img-esquerda .img-banner {
+		display: block;
+		width: auto;
+		height: 20px;
+	}
+
   }
 
 /* Media Queries */
@@ -202,6 +214,8 @@
     .insta-grid{
         grid-template-columns: repeat(2, 1fr);
     }
+
+
 }
 
 @media(min-width: 992px){
@@ -223,6 +237,30 @@
     .portfolio-grid > div:nth-child(6){
         grid-column: 1 / 3;
     }
+}
+
+@media(max-width:1200px) {
+	.esquerda {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	#lixo {
+		display: none;
+	}
+
+	.img-esquerda {
+		margin: auto;
+		background: black;
+
+	}
+
+	.img-esquerda .img-banner {
+		display: block;
+		width: 100%;
+		height: 20px;
+	}
 }
 
 
